@@ -1,0 +1,21 @@
+
+.slide1{
+    width:100%;    
+    display:inline-block;
+    text-align: center;
+    
+}
+.slide1 img
+{   display: inline-block;
+    margin:0;
+    padding:0;
+}
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
