@@ -1,4 +1,4 @@
-
+ 
 .slide1{
     width:100%;    
     display:inline-block;
@@ -10,12 +10,18 @@
     margin:0;
     padding:0;
 }
-.overlay { 
+.overlay>img { 
   color:#fff;
-  position:absolute;
+  position:absolute; 
   z-index:12;
-  top:50%;
-  left:0;
-  width:100%;
-  text-align:center;
+  width: 100%;
+  text-align: right;
+}
+.login{
+  position: absolute;
+    overflow:  visible;
+    top: 0;
+    left: 0;
+  z-index: 10;
+    
 }

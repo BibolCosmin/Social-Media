@@ -25,13 +25,25 @@
   <body>
  <div class="container-fluid">
      <div class="row">
-         <div class="overlay"><h1>Overlay Text</h1></div>
+         
     <div id="theCarousel" class="carousel slide" data-ride="carousel">
             
             <div class="carousel-inner">
+                <div class="overlay">
+                    
+                   <img class="img-responsive green" src="http://localhost/Project/assets/photos/green.png"  alt="...">
+                    
+              
+                </div>
+                <div class="col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 overlay caption">
+                       <div class="form-group login">
+                           <button class="btn-lg btn-info ">LOGIN</button>
+                       </div>
+                       
+                   </div>
                 <div class="item active" >
                     <div class ="slide1">
-                        <img class="img-responsive" src="http://localhost/Project/assets/photos\z-w.jpg"  alt="...">
+                        <img class="img-responsive" src="http://localhost/Project/assets/photos/green.jpg"  alt="...">
                         
                     </div>
 
