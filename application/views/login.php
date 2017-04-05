@@ -8,6 +8,7 @@
         
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/loginstyle.css">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -26,31 +27,39 @@
  <div class="container-fluid">
      <div class="row">
          
-    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+    <div id="theCarousel" class="carousel show" data-ride="carousel">
             
             <div class="carousel-inner">
-                <div class="overlay">
+                
+                <div class="col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 overlay">
                     
-                   <img class="img-responsive green" src="http://localhost/Project/assets/photos/green.png"  alt="...">
-                    
-              
-                </div>
-                <div class="col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 overlay caption">
-                       <div class="form-group login">
-                           <button class="btn-lg btn-info ">LOGIN</button>
+                    <div class="form-group h2  log">
+                         Login to join us! 
+                    </div>   
+                    <div class="form-group-lg username">
+                        <label for="Username" class="label-default " ></label>
+                        <input class="form-control" name="username" placeholder="Username" type="text">
+                    </div>
+                    <div class="form-group-lg password">
+                        <label for="Password" class="label-default" ></label>
+                        <input class="form-control" name="password" placeholder="Password" type="text">
+                    </div>
+                    <div class="form-group-lg ">
+                           <button class="btn-lg btn-primary login">LOGIN</button>
                        </div>
                        
                    </div>
+                
                 <div class="item active" >
                     <div class ="slide1">
-                        <img class="img-responsive" src="http://localhost/Project/assets/photos/green.jpg"  alt="...">
+                        <img class="img-responsive" src="http://localhost/Project/assets/photos/greenlogin.jpg"  alt="...">
                         
                     </div>
 
                 </div>
                 <div class="item ">
                     <div class="slide1">
-                        <img class="img-responsive" src="http://localhost/Project/assets/photos\z-w.jpg"  alt="...">
+                        <img class="img-responsive" src="http://localhost/Project/assets/photos/greenlogin.jpg"  alt="...">
                     </div>
 
 
