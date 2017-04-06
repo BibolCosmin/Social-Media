@@ -24,58 +24,58 @@
     
   </head>
   <body>
- <div class="container-fluid">
-     <div class="row">
-         
-    <div id="theCarousel" class="carousel show" data-ride="carousel">
-            
-            <div class="carousel-inner">
-                
-                <div class="col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 overlay">
-                    
-                    <div class="form-group h2  log">
-                         Login to join us! 
-                    </div>   
-                    <div class="form-group-lg username">
-                        <label for="Username" class="label-default " ></label>
-                        <input class="form-control" name="username" placeholder="Username" type="text">
-                    </div>
-                    <div class="form-group-lg password">
-                        <label for="Password" class="label-default" ></label>
-                        <input class="form-control" name="password" placeholder="Password" type="text">
-                    </div>
-                    <div class="form-group-lg ">
-                           <button class="btn-lg btn-primary login">LOGIN</button>
-                       </div>
-                       
-                   </div>
-                
-                <div class="item active" >
-                    <div class ="slide1">
-                        <img class="img-responsive" src="http://localhost/Project/assets/photos/greenlogin.jpg"  alt="...">
-                        
-                    </div>
+      <div class="container-fluid">
+          <div class="row">
 
-                </div>
-                <div class="item ">
-                    <div class="slide1">
-                        <img class="img-responsive" src="http://localhost/Project/assets/photos/greenlogin.jpg"  alt="...">
-                    </div>
+              <div id="theCarousel" class="carousel  carousel-fade"  data-ride="carousel">
+
+                  <div class="carousel-inner">
+
+                      <div class="col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 overlay">
+
+                          <div class="form-group h2  log">
+                              Login to join us! 
+                          </div>   
+                          <div class="form-group-lg username">
+                              <label for="Username" class="label-default " ></label>
+                              <input class="form-control" name="username" placeholder="Username" type="text">
+                          </div>
+                          <div class="form-group-lg password">
+                              <label for="Password" class="label-default" ></label>
+                              <input class="form-control" name="password" placeholder="Password" type="text">
+                          </div>
+                          <div class="form-group-lg ">
+                              <button class="btn-lg btn-primary login">LOGIN</button>
+                          </div>
+
+                      </div>
+
+                      <div class="item active" >
+                          <div class ="slide1">
+                              <img class="img-responsive" src="http://localhost/Project/assets/photos/greenlogin.jpg"  alt="...">
+
+                          </div>
+
+                      </div>
+                      <div class="item ">
+                          <div class="slide1">
+                              <img class="img-responsive"  src="http://localhost/Project/assets/photos/amicus2.jpg"  alt="...">
+                          </div>
 
 
-                </div>
-                <div class="item">
-                    <div class="slide1">
-                        <img class="img-responsive" src="http://localhost/Project/assets/photos/nature-best-wallpapers-images-landscape-195743.jpg"  alt="...">
-                    </div>
-                    
-                </div>
-                
-                
-            </div>
-            
-        </div>
-     </div>
+                      </div>
+                      <div class="item">
+                          <div class="slide1">
+                              <img class="img-responsive" src="http://localhost/Project/assets/photos/nature-best-wallpapers-images-landscape-195743.jpg"  alt="...">
+                          </div>
+
+                      </div>
+
+
+                  </div>
+
+              </div>
+          </div>
       </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -84,7 +84,9 @@
         <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
  
-        
+    <script>
+    $('.carousel').carousel();
+    </script>
    
   </body>
 </html>
