@@ -3,10 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/Project/assets/css/loginstyle.css</file>
+            <file>file:/C:/xampp/htdocs/Project/application/views/formsucces.php</file>
+            <file>file:/C:/xampp/htdocs/Project/application/controllers/process.php</file>
             <file>file:/C:/xampp/htdocs/Project/application/controllers/Auth.php</file>
+            <file>file:/C:/xampp/htdocs/Project/application/controllers/Form.php</file>
             <file>file:/C:/xampp/htdocs/Project/application/views/register.php</file>
             <file>file:/C:/xampp/htdocs/Project/application/views/login.php</file>
+            <file>file:/C:/xampp/htdocs/Project/assets/css/registerstyle.css</file>
         </group>
     </open-files>
 </project-private>

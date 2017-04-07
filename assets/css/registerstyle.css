@@ -11,13 +11,16 @@
     max-height: 920px;
 }
 
-.overlay>img { 
+.overlay{ 
   color:#fff;
   position:absolute; 
   
   width: 100%;
   text-align: left;
 }
+ul, li {display: block; list-style: none; margin: 0; padding: 0;}
+ul li {padding: 5px 0;}
+ul li label span {display: block; cursor: pointer;}
 
 .log{
     text-align: center;
