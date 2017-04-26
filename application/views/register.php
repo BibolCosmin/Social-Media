@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="app" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/registerstyle.css">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Login</title>
+    <title>Register</title>
 
     <!-- Bootstrap -->
     
@@ -25,50 +25,55 @@
   </head>
   <body>
       <div class="container-fluid">
-          <div class="row">
+          
+          
 
-              <div id="theCarousel" class="carousel  carousel-fade"  data-ride="carousel">
-
-                  <div class="carousel-inner">
-
-                      <div class="col-lg-offset-1 col-lg-4 col-lg-offset-7 col-md-offset1 col-md-4 col-md-offset-7 col-sm-offset-1 col-sm-8 col-sm-offset-3 overlay">
-                          <ul class="overlay">
                           
+          <div class="row">
+              
+
+          <!--    <div id="theCarousel" class="carousel  carousel-fade"  data-ride="carousel">
+
+                  <div class="carousel-inner"> -->
+          <img  id="top-header" class="img-responsive" src="http://localhost/Project/assets/photos/amicus.jpg"  alt="...">
+
+                      <div class="col-lg-offset-1 col-lg-4 col-lg-offset-7 col-md-offset1 col-md-8  col-sm-offset-1 col-sm-8 col-sm-offset-3 overlay ">
+                          
+                         
                           <?php echo validation_errors(); ?>
                           <?php echo form_open('form'); ?>
                           <form action="process.php" method="POST">
                               
-                                  <li>
+                                  
                                       <div class="form-group h3  log">
                                           Register to be AMiCUS! 
                                       </div> 
-                                  </li>
-                                  <li>
+                                 
+                                  
                                       <div class="form-group-lg username">
                                           <label for="username" class="label-default " ></label>
                                           <input class="form-control" name="username" placeholder="Username" type="text" value="<?php echo set_value('username'); ?>">
                                       </div>
-                                  </li>
-                                  <li>
+                                 
+                                  
                                       <div class="form-group-lg email">
                                           <label for="email" class="label-default " ></label>
                                           <input class="form-control" name="email" placeholder="E-mail" type="text" value="<?php echo set_value('email'); ?>">
                                       </div>
-                                  </li>
-                                  <li>
+                                  
+                                  
 
                                       <div class="form-group-lg password">
                                           <label for="password" class="label-default" ></label>
                                           <input class="form-control" name="password" placeholder="Password" type="text" value="<?php echo set_value('password'); ?>">
                                       </div>
-                                  </li>
-                                  <li>
+                                  
+                                  
                                       <div class="form-group-lg password1">
                                           <label for="passconf" class="label-default" ></label>
                                           <input class="form-control" name="passconf" placeholder="Confirm Password" type="text" value="<?php echo set_value('passconf'); ?>">
                                       </div>
-                                  </li>
-                                  <li>
+                                  
                                       <div class="form-group-lg gender">
                                           <label for="gender" class="label-default" ></label>
                                           <select class="form-control" id="Gender" name="gender" type="text" value="<?php echo set_value('gender'); ?>">
@@ -76,23 +81,20 @@
                                               <option value="Female">Female</option>
                                           </select>
                                       </div>
-                                  </li>
-                                  <li>
+                                 
                                       <div class="form-group-lg phone">
                                           <label for="phone" class="label-default" ></label>
                                           <input class="form-control" name="phone" placeholder="Phone" type="text" value="<?php echo set_value('phone'); ?>">
                                       </div>
-                                  </li>
-                                  <li>
+                                  
                                       <div class="form-group-lg ">
                                           <button class="btn-lg btn-primary login">REGISTER</button>
                                       </div>
-                                  </li>
-                              </ul>
+                                 
                           </form>
                       </div>
 
-                      <div class="item active" >
+                   <!--   <div class="item active" >
                           <div class ="slide1">
                               <img class="img-responsive" src="http://localhost/Project/assets/photos/amicus.jpg"  alt="...">
 
@@ -110,11 +112,11 @@
                       </div>
 
 
-                  </div>
-
-              </div>
+                  </div>   -->
           </div>
-      </div>
+             
+          </div>
+      
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
